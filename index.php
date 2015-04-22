@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
           
     <!-- ===========================
     THEME INFO
     =========================== -->
-    <meta name="description" content="A free Bootstrap powerd HTML template exclusively crafted for the super lazy designers like me who designed thousand of websites till today but never got a chance to build one himself.">
-    <meta name="keywords" content="Free Portfolio Template, Free Template, Free Bootstrap Template, Dribbble Portfolio Template, Free HTML5 Template">
-    <meta name="author" content="EvenFly Team">
-    
-    <!-- DEVEOPER'S NOTE:
-    This is a free Bootstrap powered HTML template from EvenFly. Feel free to download, modify and use it for yourself or your clients as long there is no money involved.
-    
-    Please don't try to sale it from anywhere; because I want it to be free, forever. If you sale it, That's me who deserves the money, not you :)
-    -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Rafael Damasio">
 
     <!-- ===========================
     SITE TITLE
     =========================== -->
-    <title>Drifolio Bootstrap</title><!-- This is what you see on your browser tab-->
+    <title>Rafael Damasio | Desenvolvimento e Programação Web</title>
     
     <!-- ===========================
     FAVICONS
@@ -50,6 +44,12 @@
     GOOGLE FONTS
     =========================== -->    
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+    
+    
+    <!-- ===========================
+    GOOGLE FONTS
+    =========================== -->    
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,31 +58,31 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-  <!-- ===========================
-   GOOGLE ANALYTICS (Optional)
-   =========================== -->
+	<!-- ===========================
+   	GOOGLE ANALYTICS (Optional)
+   	=========================== -->
     
     <!--Replace this line with your analytics code-->
      
     <!-- Analytics end-->
   
-   </head>
-    <body data-spy="scroll">
-        <!-- Preloader -->
-        <div id="preloader">           
-            <div id="status">
-                <div class="loadicon icon-moustache wow tada infinite" data-wow-duration="8s"></div>
-            </div>
+</head>
+<body data-spy="scroll">
+	<!-- Preloader -->
+    <div id="preloader">           
+        <div id="status">
+            <div class="loadicon fa fa-cog fa-spin fa-2x fa-fw wow tada infinite" data-wow-duration="8s"></div>
         </div>
+    </div>
         
-       <header>               
+    <header>               
         <!-- ===========================
         HERO AREA
         =========================== -->
         <div id="hero">           
             <div class="container herocontent">               
-                <h2 class="wow fadeInUp" data-wow-duration="2s">Drifolio the Awesome</h2>                
-                <h4 class="wow fadeInDown" data-wow-duration="3s">Exclusively crafted  for the super lazy designers like me who designed thousand of websites till today but never got a chance to build one himself.</h4>            
+                <h2 class="wow fadeInUp" data-wow-duration="2s">Desenvolvimento e Programação Web</h2>                
+                <h4 class="wow fadeInDown" data-wow-duration="3s">Desenvolvimento e programação web sempre com foco no usuário, utilizando as mais atuais ferramentas tecnológicas. Tornando a web muito mais prática e leve.</h4>            
             </div>
             
             <!-- Featured image on the Hero area -->
@@ -105,87 +105,82 @@
                         
                            <a class="navbar-brand" href="#hero">
                             <!-- Replace Drifolio Bootstrap with your Site Name and remove icon-grid to remove the placeholder icon -->
-                            <span class="brandicon icon-grid"></span>
-                            <span class="brandname">Drifolio Bootstrap</span>
+                            <span class="brandicon fa fa-code fa-fw"></span>
+                            <span class="brandname">Rafael Damasio</span>
                         </a>
                     </div>
 
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
-                        <li><a href="#about"><span class="btnicon icon-user"></span>About</a></li>
-                        <li><a href="#services"><span class="btnicon icon-cup"></span>Services</a></li>
+                        <li><a href="#about"><span class="btnicon icon-user"></span>Sobre</a></li>
+                        <li><a href="#services"><span class="btnicon icon-cup"></span>Serviços</a></li>
                         <li><a href="#portfolio"><span class="btnicon icon-rocket"></span>Portfolio</a></li>
-                        <li><a href="#testimonials"><span class="btnicon icon-bubble"></span>Testimonials</a></li>
                         
                         <!--don't forget to replace my email address below with yours-->
-                        <li><a href="mailto:m@creatrix.us"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
-                        <li class="active"><a href=""><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
+                        <li><a href="mailto:damasio_damasio@hotmail.com"><span class="btnicon icon-envelope-open"></span>Contato</a></li>
                     </ul>
                 
                 </div><!--.nav-collapse -->
             </div>
         </nav><!--navbar end-->        
-     </header><!--header end-->     
+	</header><!--header end-->     
 
     <!-- ===========================
     FEATURED CLIENTS SECTION START
     =========================== -->
-     <div id="clients">
-         <div class="container">
-             <div class="col-md-3">
-                 <h4>Proudly worked with:</h4>
-             </div>
-             <div class="col-md-9">
-                 <ul><!--CLIENTS LOGO-->
-                     <li><img src="img/payoneer.png" alt="Payoneer"></li>
-                     <li><img src="img/amazon.png" alt="Amazon"></li>
-                     <li><img src="img/elance-odesk.png" alt="Elance-oDesk"></li>
-                     <li><img src="img/curb.png" alt="Curb Envy"></li>                     
-                 </ul><!--CLIENTS LOGO END-->
-             </div>
-         </div>
-         <hr><!-- SECTION SEPARETOR LINE -->
-     </div><!--FEATURED CLIENTS SECTION END-->
+    <div id="clients">
+		<div class="container">
+        	<div class="col-md-2">
+                <h4>Tecnologias:</h4>
+            </div>
+            <div class="col-md-10">
+                <ul><!--CLIENTS LOGO-->
+                    <li><img src="img/aws.jpg" alt="Aws Amazon" width="140"></li>
+                    <li><img src="img/html5_css3.jpg" alt="HTML5 + CSS3" width="90"></li>
+                    <li><img src="img/jquery.jpg" alt="jQuery" width="85"></li>
+                    <li><img src="img/php_mysql.jpg" alt="PHP + MySql"></li>
+                    <li><img src="img/magento.jpg" alt="Magento" width="150"></li>
+                    <li><img src="img/wordpress.jpg" width="160" alt="Wordpress"></li>
+                </ul><!--CLIENTS LOGO END-->
+            </div>
+     	</div>
+        <hr><!-- SECTION SEPARETOR LINE -->
+	</div><!--FEATURED CLIENTS SECTION END-->
      
     
     <!-- ===========================
     ABOUT SECTION START
     =========================== -->
-     <div id="about" class="container">
+    <div id="about" class="container">
         
-        <!-- LEFT PART OF THE ABOUT SECTION -->
-         <div class="col-md-6">
-            <div class="row">
-             <h2 class="wow fadeInDown" data-wow-duration="2s">I'm Mamun Srizon from Bangladesh</h2>
-
-             <h4 class="wow fadeInUp" data-wow-duration="3s">A freelance UI/UX wizard as well as a Daydreamer who workes on the Graveyard Shift and sleeps all the day!</h4>
-             
-             <p class="wow fadeInDown" data-wow-duration="3s">I'm gonna build me an airport, put my name on it. Why, Michael? So you can fly away from your feelings? I don't care if it takes from now till the end of Shrimpfest.</p>
-             <p class="wow fadeInDown" data-wow-duration="3s">Bugger bag egg's old boy willy jolly scrote munta skive pillock, bloody shambles nose rag blummin' scrote narky ever so, Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-             
-             <a class="dribbble-follow-button wow bounce" href="http://dribbble.com/srizon">Follow</a>
-             </div> <!-- ABOUT INFO END -->
+    	<!-- LEFT PART OF THE ABOUT SECTION -->
+        <div class="col-md-6">
+           	<div class="row">
+                <h2 class="wow fadeInDown" data-wow-duration="2s">Tenha muito mais visibilidade na web.</h2>
+                <h4 class="wow fadeInUp" data-wow-duration="3s">Web sites e sistemas web voltados à interação do usuário, para sempre facilitar a sua vida!</h4>
+                <p class="wow fadeInDown" data-wow-duration="3s">Com sua empresa aparecendo na web você tem uma redução dos custos com marketing, além de ter sua publicidade muito mais assertiva, trazendo seu cliente até você com muito mais facilidade.</p>
+                <p class="wow fadeInDown" data-wow-duration="3s">Muito além das redes sociais, a web tras um vasto leque de opções para trabalhar sua mídia digital. Você pode desde gerenciar seus projetos e equipes, até mesmo vender seus produtos e serviços com um custo muito menor.</p>
+			</div> <!-- ABOUT INFO END -->
              
             
-            <div class="myapps row">
-                <h5>Tools and apps I use everyday:</h5>
+			<div class="myapps row">
+            	<h5>Ferramentas e aplicativos utilizados:</h5>
                 
                 <ul><!-- FAVORITE APP ICONS START -->
-                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="img/photoshop.svg" alt="Photoshop"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="img/illustrator.svg" alt="Illustrator"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="3s" src="img/flash.svg" alt="Adobe Flash"></li>
-                    <li><img class="wow animated bounceInUp" data-wow-duration="4s" src="img/after_effects.svg" alt="After Effects"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="5s" src="img/indesign.svg" alt="InDesign"></li>
+                	<li><img class="wow bounceInUp" data-wow-duration="1s" src="img/photoshop.png" alt="Photoshop"></li>
+                	<li><img class="wow animated bounceInUp" data-wow-duration="2s" src="img/dreamweaver.png" alt="Dreamweaver"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="3s" src="img/fireworks.png" alt="Fireworks"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="4s" src="img/sublime.png" alt="Sublime Text"></li>
                 </ul><!-- FAVORITE APP ICONS END -->
             </div>
-         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
+        </div><!-- LEFT PART OF THE ABOUT SECTION END -->
         <!--Left part end-->
          
-         <!-- RIGHT PART OF THE ABOUT SECTION -->
-         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
-             <img src="img/user.png" alt="Mamun Srizon">
-         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
-     </div><!-- ABOUT SECTION END -->
+        <!-- RIGHT PART OF THE ABOUT SECTION -->
+		<div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
+        	<img src="img/user.png" alt="Mamun Srizon">
+		</div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
+	</div><!-- ABOUT SECTION END -->
         
     <hr><!-- SECTION SEPARETOR LINE -->
         
@@ -194,97 +189,113 @@
     =========================== -->
     <div id="services" class="container">
        
-        <!-- SERVICE SECTION HEADING START -->
+		<!-- SERVICE SECTION HEADING START -->
         <div class="sectionhead  row wow fadeInUp">
-            <span class="bigicon icon-cup "></span>
-            <h3>This is what I can do for you</h3>
+			<span class="fa fa-coffee fa-4x"></span>
+            <h3>Um pouco do que posso fazer por você:</h3>
             <hr class="separetor">
-         </div><!--SERVICE SECTION HEADING END-->
+        </div><!--SERVICE SECTION HEADING END-->
          
         <!-- SERVICE ITEMS START -->
         <div class="row">
-               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s1.png" alt="">
-                   <h4>Responsive Web Design</h4>
-                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
-                </div> <!-- ITEM END -->
+			<div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+				<span class="fa fa-html5 fa-5x"></span>
+                <h4>Sites Responsivos</h4>
+                <p>Sites compatíveis com os navegadores atuais e com as plataformas móveis do momento. Seu site sempre visível em qualquer dispositivo.</p>
+            </div> <!-- ITEM END -->
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s2.png" alt="">
-                   <h4>Android App Design</h4>
-                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+				<span class="fa fa-money fa-5x"></span>
+               	<h4>e-commerce</h4>
+               	<p>Traga sua loja pra web. Com uma loja virtual você consegue muito mais clientes com investimentos muito menores.</p>
+            </div> <!-- ITEM END -->
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s3.png" alt="">
-                   <h4>iOS App Design</h4>
-                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+				<span class="fa fa-wordpress fa-5x"></span>
+               	<h4>Blogs</h4>
+               	<p>Tenha um espaço pessoal ou profissional onde você possa expor suas ideias e projetos ao redor do mundo.</p>
+            </div> <!-- ITEM END -->
 
-               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s4.png" alt="">
-                   <h4>Windows App Design</h4>
-                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
-                </div> <!-- ITEM END -->
+           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+				<span class="fa fa-bar-chart fa-5x"></span>
+               	<h4>Sistemas Web</h4>
+               	<p>Gerencie sua empresa de qualquer lugar utilizando sistemas administrativos que podem ser acessados de qualquer dispositivo.</p>
+            </div> <!-- ITEM END -->
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s5.png" alt="">
-                   <h4>Brand Identity Design</h4>
-                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+               	<span class="fa fa-server fa-5x"></span>
+               	<h4>Servidores Web</h4>
+               	<p>Tenha um servidor web dedicado, pronto para suas necessidades utilizando os serviços AWS Amazon com muita performance e confiabilidade.</p>
+            </div> <!-- ITEM END -->
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s6.png" alt="">
-                   <h4>CMYK Print Design</h4>
-                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+               	<span class="fa fa-google fa-5x"></span>
+               	<h4>Otimização em Buscadores</h4>
+               	<p>Otimize seu site para aparecer sempre bem nos buscadores modernos, assim você terá sempre o cliente batendo à sua porta.</p>
+            </div> <!-- ITEM END -->
         </div><!-- SERVICE ITEMS END-->
     </div><!-- SERVICE SECTION END -->
     
     <!-- ===========================
     PORTFOLIO SECTION START
     =========================== -->
-    <div id="portfolio">
+	<div id="portfolio">
         <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-          <span class="bigicon icon-rocket"></span>
-           <h3>A few recent works</h3>
-           <hr class="separetor">            
+          	<span class="fa fa-globe fa-5x"></span>
+           	<h3>Alguns trabalhos recentes</h3>
+           	<hr class="separetor">            
         </div><!-- PORTFOLIO SECTION HEAD END -->   
         
         <!-- PORTFOLIO ITEMS START -->
         <div class="portfolioitems container">
-            <ul><div id="shotsByPlayerId"> </div></ul><!--REFER TO THE js/drifolio.js-->
+			<?php //<ul><div id="shotsByPlayerId"> </div></ul><!--REFER TO THE js/drifolio.js--> ?>
+            <ul>
+            	<div id="shotsByPlayerId">
+                	<li>
+                    	<a href="http://dribbble.com/shots/1931773-Happy-Valentines-Day-Animation">
+                        	<img alt="Happy Valentines Day Animation" src="https://d13yacurqjgara.cloudfront.net/users/149279/screenshots/1931773/happy-valentines-day_teaser.gif">
+                        </a>
+                        <h3>
+                        	<a href="http://dribbble.com/shots/1931773-Happy-Valentines-Day-Animation">Happy Valentines Day Animation</a>
+                        </h3>
+                        <div class="likecount">
+                        	<a href="http://dribbble.com/shots/1931773-Happy-Valentines-Day-Animation">
+                            	<span class="icon-heart"></span> 18
+                            </a>
+                        </div>
+                        <div class="commentcount">
+                        	<a href="http://dribbble.com/shots/1931773-Happy-Valentines-Day-Animation">
+                        		<span class="icon-bubbles"></span> 8
+                        	</a>
+                    	</div>
+                	</li>
+              	</div>
+            </ul>
         </div><!-- PORTFOLIO ITEMS END -->
-        
-        <!--Replace the URL below with your dribbble profile URL-->
-        <a class="btn btn-default wow fadeInUp" href="http://dribbble.com/srizon" role="button">
-            <span class="btnicon icon-social-dribbble"></span>
-            <span class="button_text">View all items</span>
-        </a> 
     </div><!-- PORTFOLIO SECTION END -->
 
     <!-- ===========================
     TESTIMONIAL SECTION START
     =========================== -->
     <div id="testimonials" class="container">
-        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-           <span class="bigicon icon-bubbles"></span>
-           <h3>This is what I love to listen</h3>
-           <h4>Expedita nobis natus doloribus blanditiis quos, atque voluptatem, veritatis soluta eveniet ea!</h4>
-           <hr class="separetor">            
+		<div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+           	<span class="bigicon icon-bubbles"></span>
+           	<h3>This is what I love to listen</h3>
+           	<h4>Expedita nobis natus doloribus blanditiis quos, atque voluptatem, veritatis soluta eveniet ea!</h4>
+           	<hr class="separetor">            
         </div><!-- TESTIMONIAL SECTIONHEAD END -->
         
         <!-- TESTIMONIAL ITEMS START -->
         <div class="row">
             <!-- 1ST TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
-                <div class="clientsphoto">
-                    <img src="img/dan.jpg" alt="Dan">
+				<div class="clientsphoto">
+                	<img src="img/dan.jpg" alt="Dan">
                 </div>
                 
                 <div class="quote">
-                    <blockquote>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
+                	<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
                     </blockquote>
                     <h5>Dan Cederholm</h5>
                     <p>Co-Founder, Dribbble</p>
@@ -294,7 +305,7 @@
             <!-- 2ND TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
                 <div class="clientsphoto">
-                    <img src="img/bill.jpg" alt="Bill">
+					<img src="img/bill.jpg" alt="Bill">
                 </div>
                 
                 <div class="quote">
@@ -347,7 +358,7 @@
              
             <div class="footerlinks"><!-- FOOTER LINKS START -->            
                 <ul>
-                    <li><a href="#hero">Home</a></li>
+                	<li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
@@ -370,11 +381,11 @@
                     <li><a href="http://dribbble.com/srizon"><span class="icon-social-dribbble"></span></a></li>
                     <li><a href="#"><span class="icon-social-tumblr"></span></a></li>
                  </ul>
-             </div><!-- FOOTER SOCIAL ICONS END -->
-         </div>
-     </footer><!-- FOOTER END -->
+			</div><!-- FOOTER SOCIAL ICONS END -->
+		</div>
+    </footer><!-- FOOTER END -->
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -383,8 +394,8 @@
     <!--Other necessary scripts-->
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
-    <script src="js/drifolio.js"></script>
+   	<script src="js/drifolio.js"></script>
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>    
-  </body>
+</body>
 </html>

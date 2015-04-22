@@ -74,7 +74,8 @@ HERO AREA
 #hero{
     color: #fff;
     text-align: center;
-    background: url(../img/trianglify-background.svg)no-repeat; /*your background image*/
+   	background: url(../img/trianglify-background.svg)no-repeat; /*your background image*/
+	/*background: url(../img/bg_topo.jpg) no-repeat 0 0;*/
     max-height: 880px;
     overflow: hidden;
 }
@@ -84,12 +85,13 @@ HERO AREA
     width: 100%;
     max-width: 900px;
 }
+.herocontent h2, .herocontent h4 {}
 .heroshot{
     margin-top: 20px;
     width: 100%;
     max-width: 1200px;
-
 }
+#hero img {}
 
 /*================================
 CLIENTS SECTION

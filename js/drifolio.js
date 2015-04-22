@@ -1,7 +1,7 @@
 //==========================================================
 //Replace srizon with your dribbble username
 //==========================================================
-$.jribbble.getShotsByPlayerId('srizon', function (playerShots) {
+/*$.jribbble.getShotsByPlayerId('srizon', function (playerShots) {
     var html = [];
 
 
@@ -18,7 +18,7 @@ $.jribbble.getShotsByPlayerId('srizon', function (playerShots) {
     });
 
     $('#shotsByPlayerId').html(html.join(''));
-}, {page: 1, per_page: 9});
+}, {page: 1, per_page: 9});*/
 
 //========================
 //Follow button
@@ -59,6 +59,22 @@ $(window).load(function() { // makes sure the whole site is loaded
 //CUSTOM SCROLLBAR
 //========================
 $("html").niceScroll({
+    mousescrollstep: 70,
+    cursorcolor: "#ea9312",
+    cursorwidth: "5px",
+    cursorborderradius: "10px",
+    cursorborder: "none",
+});
+
+$("body").niceScroll({
+    mousescrollstep: 70,
+    cursorcolor: "#ea9312",
+    cursorwidth: "5px",
+    cursorborderradius: "10px",
+    cursorborder: "none",
+});
+
+$(window).niceScroll({
     mousescrollstep: 70,
     cursorcolor: "#ea9312",
     cursorwidth: "5px",
