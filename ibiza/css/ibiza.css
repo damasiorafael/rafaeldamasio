@@ -1,0 +1,361 @@
+/*
+ * Nome: ibiza.css
+ * Desenvolvido por: Rafael Damasio (Phorma Design)
+ * Data da Criacao: 07-07-2015
+ * Copyright (c) 2015 - Ibiza Moveleira
+ * Versao: 3.0.0
+ */
+
+
+/*-----------------------------------------------------*/
+/* GERAL                                               */
+/*-----------------------------------------------------*/
+* {
+  outline: none!important;
+}
+
+abbr {
+  border: none!important;
+}
+
+
+/*-----------------------------------------------------*/
+/* BODY GERAL                                          */
+/*-----------------------------------------------------*/
+body {
+  padding-top: 120px;
+  background-color: #E2E2E2;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
+/*-----------------------------------------------------*/
+/* TOPO                                                */
+/*-----------------------------------------------------*/
+.navbar-fixed-top {
+  box-shadow: 0px 0px 40px #111, 80px 0px 40px #111, -80px 0px 40px #111;
+  background-color: #000;
+}
+
+.navbar-brand {
+  height: auto;
+  margin-left: 0!important;
+  padding: 16px 0 19px 0;
+  line-height: auto;
+}
+.navbar-brand span {
+  display: none;
+}
+
+.navbar-right {
+  margin-right: 0!important;
+  margin-top: 59px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #FFF!important;
+  font-size: 20px;
+  font-family: 'TwCenMT';
+}
+
+.navbar-nav > li:last-child > a {
+  padding-right: 0;
+}
+
+  /*-----------------------------------------------------*/
+  /* media querie menu                                   */
+  /*-----------------------------------------------------*/
+  @media (max-width: 1024px){
+    .navbar-brand {
+      padding-left: 15px!important;
+    }
+
+    .navbar-nav > li > a {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  /*-----------------------------------------------------*/
+  /* media querie menu                                   */
+  /*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/* HEADER CAROUSEL                                     */
+/*-----------------------------------------------------*/
+header {
+  box-shadow: 0 -20px 50px #000, -100px -20px 50px #CCC, 100px -20px 50px #CCC;
+  border-bottom: 11px solid #A61801;
+}
+
+header.carousel {
+  height: auto;
+}
+
+#slider1_container {
+  z-index: 10!important;
+}
+
+
+/*-----------------------------------------------------*/
+/* DESTAQUE HOME                                       */
+/*-----------------------------------------------------*/
+.container-body {
+  padding-top: 25px;
+}
+
+.col-img-title {
+  padding: 0 0 20px 0;
+}
+
+.img-max-size-100 {
+  max-width: 100%;
+}
+
+.img-max-size-150 {
+  max-width: 150%;
+}
+
+.img-size-150 {
+  width: 150%;
+}
+
+.margin-negativa-right {
+  margin-right: -50%;
+}
+
+.par-padd-right {
+  padding-right: 30px;
+}
+
+  /*-----------------------------------------------------*/
+  /* media querie imagens                                */
+  /*-----------------------------------------------------*/
+  @media (max-width: 1024px){
+    .img-max-size-150 {
+      max-width: 100%!important;
+    }
+
+    .img-size-150 {
+      width: auto!important;
+    }
+
+    .margin-negativa-right {
+      margin-right: auto!important;
+      float: none!important;
+    }
+
+    .col-img-destaque {
+      text-align: center;
+      padding-top: 30px;
+    }
+  }
+  /*-----------------------------------------------------*/
+  /* media querie imagens                                */
+  /*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/* RODAPE                                              */
+/*-----------------------------------------------------*/
+footer {
+  background-color: #000;
+  margin-bottom: 0!important;
+  min-height: 55px;
+}
+
+footer * {
+  color: #FFF;
+  font-size: 12px;
+  font-family: 'TwCenMT';
+}
+
+.col-no-padding {
+  padding: 0 0 0 0!important;
+}
+  /*-----------------------------------------------------*/
+  /* media querie FOOTER                                 */
+  /*-----------------------------------------------------*/
+  @media (max-width: 1024px){
+    .col-no-padding {
+      padding: 0 15px 0!important;
+    }
+  }
+  /*-----------------------------------------------------*/
+  /* media querie FOOTER                                 */
+  /*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/* PRODUTOS                                            */
+/*-----------------------------------------------------*/
+.container-produtos h2 {
+  color: #000000;
+  border-color: #000000;
+  font-size: 33px;
+  font-family: 'TwCenMT';
+  text-transform: uppercase;
+}
+
+.item-produto {
+  display: block;
+  padding: 12px;
+  background-color: #000;
+  border-radius: 7px;
+  margin-bottom: 32px;
+  max-width: calc(100%);
+}
+
+.item-produto:link { text-decoration: none;}
+.item-produto:hover { text-decoration: none;}
+.item-produto:visited { text-decoration: none;}
+
+.item-produto img {
+  margin-bottom: 0;
+}
+
+.item-produto h3 {
+  font-size: 25px;
+  font-family: 'TwCenMT';
+  color: #FFF;
+  padding: 6px 0 0 0;
+  margin: 0;
+  text-align: center;
+}
+
+.col-item-produto {
+
+}
+
+
+/*-----------------------------------------------------*/
+/* CONTATO                                             */
+/*-----------------------------------------------------*/
+.container-contato span {
+  display: block;
+  clear: both;
+}
+
+.container-contato form {
+  margin-bottom: 30px;
+}
+
+.container-contato form label {
+  display: none;
+}
+
+.container-contato form .form-group {
+  margin-bottom: 14px;
+}
+
+.container-contato form .controls {
+
+}
+
+.container-contato form input, .container-contato form textarea {
+  font-size: 19px;
+  font-family: 'TwCenMT';
+  color: #888888;
+  border-radius: 0!important;
+  border-color: #696969;
+  background-color: #e1e1e1;
+}
+
+.container-contato form input {
+  height: 30px!important;
+}
+
+.container-contato form textarea {
+  height: 70px!important;
+}
+
+.container-contato form button {
+  color: #FFF;
+  background-color: #000!important;
+  border-radius: 0!important;
+  border-color: #000;
+  font-size: 16px;
+  font-family: 'TwCenMT';
+  width: 110px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.container-contato form button:hover {
+  border-color: #888;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 0, 0, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 0, 0, .6);
+}
+
+.col-detalhes-contato {
+  margin-bottom: 30px;
+}
+
+.container-contato p {
+  font-size: 20px;
+  font-family: 'TwCenMT';
+}
+
+.container-contato p span:first-child {
+  line-height: 14px;
+}
+
+.container-contato p.item-contato span {
+  line-height: 20px;
+}
+
+.form-control:focus {
+  border-color: #A61801;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(148, 4, 4, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(148, 4, 4, .6);
+}
+
+#map_canvas {
+    height: 400px;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+/*-----------------------------------------------------*/
+/* SLIDER HOME                                         */
+/*-----------------------------------------------------*/
+/* jssor slider arrow navigator skin 03 css */
+/*
+.jssora03l                  (normal)
+.jssora03r                  (normal)
+.jssora03l:hover            (normal mouseover)
+.jssora03r:hover            (normal mouseover)
+.jssora03l.jssora03ldn      (mousedown)
+.jssora03r.jssora03rdn      (mousedown)
+*/
+.jssora03l, .jssora03r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url(../img/a02.png) no-repeat;
+    overflow: hidden;
+    z-index: 20!important;
+}
+.jssora03l { background-position: -3px -33px; }
+.jssora03r { background-position: -63px -33px; }
+.jssora03l:hover { background-position: -123px -33px; }
+.jssora03r:hover { background-position: -183px -33px; }
+.jssora03l.jssora03ldn { background-position: -243px -33px; }
+.jssora03r.jssora03rdn { background-position: -303px -33px; }
