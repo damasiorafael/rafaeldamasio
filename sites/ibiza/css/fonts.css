@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'TwCenMT';
+    src: url('../fonts/TwCenMT.eot');
+    src: url('../fonts/TwCenMT.eot') format('embedded-opentype'),
+         url('../fonts/TwCenMT.woff2') format('woff2'),
+         url('../fonts/TwCenMT.woff') format('woff'),
+         url('../fonts/TwCenMT.ttf') format('truetype'),
+         url('../fonts/TwCenMT.svg#TwCenMT') format('svg');
+}
+
+@font-face {
+    font-family: 'TwCenMTItalic';
+    src: url('../fonts/TwCenMTItalic.eot');
+    src: url('../fonts/TwCenMTItalic.eot') format('embedded-opentype'),
+         url('../fonts/TwCenMTItalic.woff2') format('woff2'),
+         url('../fonts/TwCenMTItalic.woff') format('woff'),
+         url('../fonts/TwCenMTItalic.ttf') format('truetype'),
+         url('../fonts/TwCenMTItalic.svg#TwCenMTItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'TwCenMTBold';
+    src: url('../fonts/TwCenMTBold.eot');
+    src: url('../fonts/TwCenMTBold.eot') format('embedded-opentype'),
+         url('../fonts/TwCenMTBold.woff2') format('woff2'),
+         url('../fonts/TwCenMTBold.woff') format('woff'),
+         url('../fonts/TwCenMTBold.ttf') format('truetype'),
+         url('../fonts/TwCenMTBold.svg#TwCenMTBold') format('svg');
+}
+
+@font-face {
+    font-family: 'TwCenMTBoldItalic';
+    src: url('../fonts/TwCenMTBoldItalic.eot');
+    src: url('../fonts/TwCenMTBoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/TwCenMTBoldItalic.woff2') format('woff2'),
+         url('../fonts/TwCenMTBoldItalic.woff') format('woff'),
+         url('../fonts/TwCenMTBoldItalic.ttf') format('truetype'),
+         url('../fonts/TwCenMTBoldItalic.svg#TwCenMTBoldItalic') format('svg');
+}
