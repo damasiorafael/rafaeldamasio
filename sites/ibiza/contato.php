@@ -53,7 +53,7 @@
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-6">
-                <form name="contato" id="contato" validate action="contacts.php">
+                <form name="contato" id="contato" validate action="contacts.php" method="post">
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Nome:</label>
