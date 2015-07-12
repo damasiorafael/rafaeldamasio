@@ -3,9 +3,9 @@
 header("Content-Type: text/html; charset=utf8",true);
 include_once("inc/config.php");
 
-$destinatarios	= "pesquisa.registro@unopar.br";
+$destinatarios	= "damasio_damasio@hotmail.com";
 
-$destinatario 	= utf8_decode("KROTON - Portal Stricto Sensu");
+$destinatario 	= utf8_decode("Ibiza - Moveleira");
 $usuario 		= "damasio.rafael@gmail.com";
 $senha 			= "Damasio.8560";
 //$usuario 		= "damasio.rafael@gmail.com";
@@ -25,7 +25,7 @@ $mensagem		= protecao(utf8_decode($_REQUEST['mensagem']));
 include_once("inc/phpmailer/class.phpmailer.php");
 
 $To = $destinatarios;
-$Subject = utf8_decode("KROTON - Portal Stricto Sensu - Mensagem através do site");
+$Subject = utf8_decode("Ibiza Moveleira - Mensagem através do site");
 $bodyMensagem = "";
 $bodyMensagem .= "<strong>Nome:</strong> ".$nome." <br />";
 $bodyMensagem .= "<strong>E-mail:</strong> $email <br />";
