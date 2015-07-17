@@ -43,6 +43,10 @@ p {
   background-color: #000;
 }
 
+.sombra-menor {
+  box-shadow: 0 0 40px #000, 0 0 20px #000!important;
+}
+
 .navbar-brand {
   height: auto;
   margin-left: 0!important;
@@ -237,6 +241,88 @@ footer * {
 
 }
 
+/*-----------------------------------------------------*/
+/* SLIDER PRODUTOS                                     */
+/*-----------------------------------------------------*/
+.lb-container {
+  padding: 0;
+}
+.lb-outerContainer {
+  border: 0;
+  background-color: transparent;
+  -webkit-border-radius: 0px!important;
+  -moz-border-radius: 0px!important;
+  -ms-border-radius: 0px!important;
+  -o-border-radius: 0px!important;
+  border-radius: 0px!important;
+}
+
+.lightbox .lb-image {
+    display: block;
+    height: auto;
+    max-width: inherit;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.lb-data .lb-details {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  background: url(../img/bg_descricao_itens.png) no-repeat 0 0 #8C2121;
+  left: 0;
+  bottom: -35px;
+  padding-bottom: 20px;
+}
+
+.lb-data .lb-details span {
+  display: block;
+  color: #FFF;
+  font-family: "TwCenMT";
+  font-size: 14px;
+}
+
+.lb-data .lb-details .title-prod {
+  font-family: "TwCenMTBold";
+  font-size: 37px;
+  padding: 20px 0 5px;
+  line-height: 26px;
+}
+.lb-data .lb-details .medidas-prod {
+  padding-bottom: 20px;
+}
+.lb-data .lb-details .desc-prod {
+  padding-top: 20px;
+}
+.lb-data .lb-details .material-prod {
+
+}
+
+.lb-data .lb-close {
+  position: absolute;
+  right: -30px;
+  top: 0px;
+  background-color: #CECECE;
+  background-position: center center;
+}
+
+@media (max-width: 1024px){
+  .lb-data .lb-close {
+    
+  }
+}
+
+.lb-data .lb-close:hover {
+  opacity: 0.7;
+}
+
+.lb-data .lb-number {
+  display: none!important;
+}
+
 
 /*-----------------------------------------------------*/
 /* CONTATO                                             */
@@ -327,35 +413,3 @@ footer * {
     margin: auto;
     width: 100%;
 }
-
-
-
-/*-----------------------------------------------------*/
-/* SLIDER HOME                                         */
-/*-----------------------------------------------------*/
-/* jssor slider arrow navigator skin 03 css */
-/*
-.jssora03l                  (normal)
-.jssora03r                  (normal)
-.jssora03l:hover            (normal mouseover)
-.jssora03r:hover            (normal mouseover)
-.jssora03l.jssora03ldn      (mousedown)
-.jssora03r.jssora03rdn      (mousedown)
-*/
-.jssora03l, .jssora03r {
-    display: block;
-    position: absolute;
-    /* size of arrow element */
-    width: 55px;
-    height: 55px;
-    cursor: pointer;
-    background: url(../img/a02.png) no-repeat;
-    overflow: hidden;
-    z-index: 20!important;
-}
-.jssora03l { background-position: -3px -33px; }
-.jssora03r { background-position: -63px -33px; }
-.jssora03l:hover { background-position: -123px -33px; }
-.jssora03r:hover { background-position: -183px -33px; }
-.jssora03l.jssora03ldn { background-position: -243px -33px; }
-.jssora03r.jssora03rdn { background-position: -303px -33px; }

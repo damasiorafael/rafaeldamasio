@@ -1,5 +1,5 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top <?php if($pag != "index"){ echo "sombra-menor"; } ?>" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.php" title="empresa">empresa</a>
+                        <a href="<?php if($pag != "index"){ echo "index.php"; } ?>#empresa" title="empresa" class="<?php if($pag == "index"){ echo "bt-scroll"; } ?>">empresa</a>
                     </li>
                     <li>
                         <a href="poltronas.php" title="poltronas">poltronas</a>

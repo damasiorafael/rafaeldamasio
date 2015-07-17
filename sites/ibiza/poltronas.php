@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include("inc/head.php"); ?>
+<?php
+    $pag = "";
+    include("inc/head.php");
+?>
 
 <body>
 
@@ -17,9 +20,28 @@
             </div>
             <?php for($i=1; $i<=9; $i++){ ?>
             <div class="col-md-4">
-                <a href="http://placehold.it/700x468" class="item-produto" data-lightbox="galerias" data-title="Poltrona Thaty Pachwork">
-                    <img alt="" src="http://placehold.it/700x468" class="img-responsive img-portfolio img-hover">
-                    <h3>Poltrona Thaty Pachwork</h3>
+                <a
+                    href="http://placehold.it/800x534"
+                    class="item-produto"
+                    data-lightbox="galerias"
+                    data-title="<div class='col-lg-6'>
+                                    <span class='title-prod'>Poltrona TOLUCCI</span>
+                                    <span class='medidas-prod'>comp: 0,70m altura: 0,90m largura: 0,75m</span>
+                                </div>
+
+                                <div class='col-lg-6'>
+                                    <span class='desc-prod'>
+                                        Pés em “L” de plástico + Rodízios
+                                        Assento Retrátil e encosto reclinável
+                                        Articulação de ferro (tubo)
+                                    </span>
+                                    <span class='material-prod'>
+                                        Fibra de silicone: encosto | assento | braço
+                                    </span>
+                                </div>">
+
+                    <img alt="" src="http://placehold.it/800x534" class="img-responsive img-portfolio img-hover" width="800">
+                    <h3>Poltrona TOLUCCI</h3>
                 </a>
             </div>
             <?php } ?>

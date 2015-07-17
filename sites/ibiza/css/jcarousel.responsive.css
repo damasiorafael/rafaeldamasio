@@ -1,0 +1,155 @@
+.jcarousel-wrapper {
+    margin: 0 auto;
+    position: relative;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    width: 741px;
+    float: left;
+}
+
+.jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    background: #ffffff;
+    color: #000;
+    text-decoration: none;
+    font: 40px Arial, sans-serif;
+    font-weight: bold;
+    line-height: 36px;
+    -webkit-border-radius: 42px;
+    -moz-border-radius: 42px;
+    border-radius: 42px;
+    -webkit-box-shadow: 0 0 15px #000;
+    -moz-box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 15px #000;
+    opacity: .50;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 0;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 11px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+
+    background: #fff;
+    color: #4E443C;
+    border-radius: 10px;
+    text-indent: -9999px;
+
+    margin-right: 7px;
+
+
+    -webkit-box-shadow: 0 0 2px #4E443C;
+    -moz-box-shadow: 0 0 2px #4E443C;
+    box-shadow: 0 0 2px #4E443C;
+}
+
+.jcarousel-pagination a.active {
+    background: #FFF;
+    color: #000;
+    opacity: 1;
+}
+
+.jcarousel-control-prev:link,
+.jcarousel-control-next:link {
+    text-decoration: none;
+    color: #000;
+}
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: #000;
+}
+.jcarousel-control-prev:active,
+.jcarousel-control-next:active {
+    text-decoration: none;
+    color: #000;
+}
+.jcarousel-control-prev:visited,
+.jcarousel-control-next:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.container-setas {
+    width: 826px;
+    position: absolute;
+    left: 50%;
+    margin-left: -413px;
+    height: 42px;
+    top: 50%;
+    margin-top: -21px;
+}
+
+.jcarousel-control-prev {
+    left: 0;
+}
+
+.jcarousel-control-next {
+    right: 0;
+}
+
+/*-----------------------------------------------------*/
+/* media querie setas                                  */
+/*-----------------------------------------------------*/
+@media (max-width: 1024px){
+    .container-setas {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .jcarousel-control-prev {
+        left: 10px;
+    }
+
+    .jcarousel-control-next {
+        right: 10px;
+    }
+}

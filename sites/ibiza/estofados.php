@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include("inc/head.php"); ?>
+<?php
+    $pag = "";
+    include("inc/head.php");
+?>
 
 <body>
 
