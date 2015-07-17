@@ -249,7 +249,7 @@ footer * {
 }
 .lb-outerContainer {
   border: 0;
-  background-color: transparent;
+  background-color: #FFF;
   -webkit-border-radius: 0px!important;
   -moz-border-radius: 0px!important;
   -ms-border-radius: 0px!important;

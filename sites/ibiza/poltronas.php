@@ -24,12 +24,12 @@
                     href="http://placehold.it/800x534"
                     class="item-produto"
                     data-lightbox="galerias"
-                    data-title="<div class='col-lg-6'>
+                    data-title="<div class='col-lg-7'>
                                     <span class='title-prod'>Poltrona TOLUCCI</span>
                                     <span class='medidas-prod'>comp: 0,70m altura: 0,90m largura: 0,75m</span>
                                 </div>
 
-                                <div class='col-lg-6'>
+                                <div class='col-lg-5'>
                                     <span class='desc-prod'>
                                         Pés em “L” de plástico + Rodízios
                                         Assento Retrátil e encosto reclinável
