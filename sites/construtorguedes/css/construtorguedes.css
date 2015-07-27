@@ -1,0 +1,425 @@
+/*
+ * Nome: construtor guedes.css
+ * Desenvolvido por: Rafael Damasio
+ * Data da Criacao: 07-07-2015
+ * Copyright (c) 2015 - Construtor Guedes
+ * Versao: 3.0.0
+ */
+
+
+/*-----------------------------------------------------*/
+/* GERAL                                               */
+/*-----------------------------------------------------*/
+* {
+  outline: none!important;
+}
+
+abbr {
+  border: none!important;
+}
+
+
+/*-----------------------------------------------------*/
+/* BODY GERAL                                          */
+/*-----------------------------------------------------*/
+body {
+  padding-top: 140px;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
+/*-----------------------------------------------------*/
+/* TOPO                                                */
+/*-----------------------------------------------------*/
+.navbar-fixed-top {
+  box-shadow: 0px 0px 40px #111, 80px 0px 40px #111, -80px 0px 40px #111;
+  background-color: #000;
+}
+
+.sombra-menor {
+  box-shadow: 0 0 40px #000, 0 0 20px #000!important;
+}
+
+.navbar-brand {
+  height: auto;
+  margin-left: 0!important;
+  padding: 16px 0 19px 0;
+  line-height: auto;
+}
+.navbar-brand span {
+  display: none;
+}
+
+.navbar-right {
+  margin-right: 0!important;
+  margin-top: 59px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #FFF!important;
+  font-size: 20px;
+  font-family: 'TwCenMT';
+}
+
+.navbar-nav > li:last-child > a {
+  padding-right: 0;
+}
+
+  /*-----------------------------------------------------*/
+  /* media querie menu                                   */
+  /*-----------------------------------------------------*/
+  @media (max-width: 1024px){
+    .navbar-brand {
+      padding-left: 15px!important;
+    }
+
+    .navbar-nav > li > a {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  /*-----------------------------------------------------*/
+  /* media querie menu                                   */
+  /*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/* HEADER CAROUSEL                                     */
+/*-----------------------------------------------------*/
+header {
+  box-shadow: 0 -20px 50px #000, -100px -20px 50px #CCC, 100px -20px 50px #CCC;
+  border-bottom: 11px solid #2490D2;
+}
+
+header.carousel {
+  height: auto;
+}
+
+#slider1_container {
+  z-index: 10!important;
+}
+
+
+/*-----------------------------------------------------*/
+/* DESTAQUE HOME                                       */
+/*-----------------------------------------------------*/
+.container-body {
+  padding-top: 25px;
+}
+
+.col-img-title {
+  padding: 0 0 20px 0;
+}
+
+.col-img-title h1 {
+  font-family: "TwCenMTBold";
+  font-size: 46px;
+}
+
+.img-max-size-100 {
+  max-width: 100%;
+}
+
+.img-max-size-150 {
+  max-width: 150%;
+}
+
+.img-size-150 {
+  width: 150%;
+}
+
+.margin-negativa-right {
+  margin-right: -50%;
+}
+
+.par-padd-right {
+  padding-right: 30px;
+}
+
+  /*-----------------------------------------------------*/
+  /* media querie imagens                                */
+  /*-----------------------------------------------------*/
+  @media (max-width: 1024px){
+    .img-max-size-150 {
+      max-width: 100%!important;
+    }
+
+    .img-size-150 {
+      width: auto!important;
+    }
+
+    .margin-negativa-right {
+      margin-right: auto!important;
+      float: none!important;
+    }
+
+    .col-img-destaque {
+      text-align: center;
+      padding-top: 30px;
+    }
+  }
+  /*-----------------------------------------------------*/
+  /* media querie imagens                                */
+  /*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/* RODAPE                                              */
+/*-----------------------------------------------------*/
+footer {
+  background-color: #2490d2;
+  margin-bottom: 0!important;
+  min-height: 55px;
+}
+
+footer * {
+  color: #FFF;
+  font-size: 12px;
+  font-family: 'TwCenMT';
+}
+
+footer p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.col-no-padding {
+  padding: 0 0 0 0!important;
+}
+  /*-----------------------------------------------------*/
+  /* media querie FOOTER                                 */
+  /*-----------------------------------------------------*/
+  @media (max-width: 1024px){
+    .col-no-padding {
+      padding: 0 15px 0!important;
+    }
+  }
+  /*-----------------------------------------------------*/
+  /* media querie FOOTER                                 */
+  /*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/* PRODUTOS                                            */
+/*-----------------------------------------------------*/
+.container-produtos h2 {
+  color: #0270b0;
+  border-color: #0270b0;
+  font-size: 33px;
+  font-family: 'TwCenMT';
+  text-transform: uppercase;
+}
+
+.item-produto {
+  display: block;
+  padding: 12px;
+  background-color: #0270b0;
+  border-radius: 0;
+  margin-bottom: 32px;
+  max-width: calc(100%);
+}
+
+.item-produto:link { text-decoration: none;}
+.item-produto:hover { text-decoration: none;}
+.item-produto:visited { text-decoration: none;}
+
+.item-produto img {
+  margin-bottom: 0;
+}
+
+.item-produto h3 {
+  font-size: 25px;
+  font-family: 'TwCenMT';
+  color: #FFF;
+  padding: 6px 0 0 0;
+  margin: 0;
+  text-align: center;
+}
+
+.col-item-produto {
+
+}
+
+/*-----------------------------------------------------*/
+/* SLIDER PRODUTOS                                     */
+/*-----------------------------------------------------*/
+.lb-container {
+  padding: 0;
+}
+.lb-outerContainer {
+  border: 0;
+  background-color: #FFF;
+  -webkit-border-radius: 0px!important;
+  -moz-border-radius: 0px!important;
+  -ms-border-radius: 0px!important;
+  -o-border-radius: 0px!important;
+  border-radius: 0px!important;
+}
+
+.lightbox .lb-image {
+    display: block;
+    height: auto;
+    max-width: inherit;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.lb-data .lb-details {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  background: url(../img/bg_descricao_itens.png) no-repeat 0 0 #8C2121;
+  left: 0;
+  bottom: -35px;
+  padding-bottom: 20px;
+}
+
+.lb-data .lb-details span {
+  display: block;
+  color: #FFF;
+  font-family: "TwCenMT";
+  font-size: 14px;
+}
+
+.lb-data .lb-details .title-prod {
+  font-family: "TwCenMTBold";
+  font-size: 37px;
+  padding: 20px 0 5px;
+  line-height: 26px;
+}
+.lb-data .lb-details .medidas-prod {
+  padding-bottom: 20px;
+}
+.lb-data .lb-details .desc-prod {
+  padding-top: 20px;
+}
+.lb-data .lb-details .material-prod {
+
+}
+
+.lb-data .lb-close {
+  position: absolute;
+  right: -30px;
+  top: 0px;
+  background-color: #CECECE;
+  background-position: center center;
+}
+
+@media (max-width: 1024px){
+  .lb-data .lb-close {
+    
+  }
+}
+
+.lb-data .lb-close:hover {
+  opacity: 0.7;
+}
+
+.lb-data .lb-number {
+  display: none!important;
+}
+
+
+/*-----------------------------------------------------*/
+/* CONTATO                                             */
+/*-----------------------------------------------------*/
+.container-contato span {
+  display: block;
+  clear: both;
+}
+
+.container-contato form {
+  margin-bottom: 30px;
+}
+
+.container-contato form label {
+  display: none;
+}
+
+.container-contato form .form-group {
+  margin-bottom: 14px;
+}
+
+.container-contato form .controls {
+
+}
+
+.container-contato form input, .container-contato form textarea {
+  font-size: 19px;
+  font-family: 'TwCenMT';
+  color: #888888;
+  border-radius: 0!important;
+  border-color: #2490d2;
+  background-color: #e1e1e1;
+}
+
+.container-contato form input {
+  height: 30px!important;
+}
+
+.container-contato form textarea {
+  height: 70px!important;
+}
+
+.container-contato form button {
+  color: #FFF;
+  background-color: #2490d2!important;
+  border-radius: 0!important;
+  border-color: #2490d2;
+  font-size: 16px;
+  font-family: 'TwCenMT';
+  width: 110px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.container-contato form button:hover {
+  border-color: #888;
+  -webkit-box-shadow: inset 0 1px 1px #2490d2, 0 0 8px #2490d2;
+          box-shadow: inset 0 1px 1px #2490d2, 0 0 8px #2490d2;
+}
+
+.col-detalhes-contato {
+  margin-bottom: 30px;
+}
+
+.container-contato p {
+  font-size: 20px;
+  font-family: 'TwCenMT';
+  color: #0270b0;
+}
+
+.container-contato p span:first-child {
+  line-height: 14px;
+}
+
+.container-contato p.item-contato span {
+  line-height: 20px;
+}
+
+.form-control:focus {
+  border-color: #2490d2;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px #2490d2, 0 0 8px #2490d2;
+          box-shadow: inset 0 1px 1px #2490d2, 0 0 8px #2490d2;
+}
+
+#map_canvas {
+    height: 400px;
+    margin: 30px auto;
+    width: 100%;
+}
