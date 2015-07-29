@@ -203,6 +203,10 @@ footer * {
 /*-----------------------------------------------------*/
 /* PRODUTOS                                            */
 /*-----------------------------------------------------*/
+.display-none {
+  display: none!important;
+}
+
 .container-produtos h2 {
   color: #000000;
   border-color: #000000;
@@ -274,7 +278,7 @@ footer * {
   height: auto;
   background: url(../img/bg_descricao_itens.png) no-repeat 0 0 #8C2121;
   left: 0;
-  bottom: -35px;
+  bottom: -95px;
   padding-bottom: 20px;
 }
 
