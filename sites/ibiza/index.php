@@ -39,7 +39,9 @@
                 <div class="col-md-12 col-img-title">
                     <img src="img/logo_interna.png" class="img-max-size-100" />
                 </div>
-                <p id="empresa" class="par-padd-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin odio nisl, at blandit neque faucibus porta. Praesent suscipit risus ex. Donec vitae quam faucibus, fringilla diam nec, porta tortor. Nullam a sodales tortor. Etiam rhoncus pretium ex id ullamcorper. Aliquam venenatis tellus in libero sollicitudin, aliquet congue lacus tempor. Etiam eu viverra ex, in faucibus dolor. Donec rhoncus mattis ligula, at accumsan libero convallis eu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam auctor lorem sed lacus laoreet tristique. Quisque eleifend nunc sit amet sem eleifend, sit amet sagittis lorem facilisis. Maecenas ut eros sed metus egestas consectetur at a sapien.</p>
+                <p id="empresa" class="par-padd-right">
+                    Desde 2012 no mercado, nós da Ibiza estofados buscamos agregar conforto, qualidade e durabilidade no nossos produtos. Localizada em Arapongas no norte do Paraná, utilizamos matérias primas selecionadas, com certificação comprovada sempre se preocupando com o desenvolvimento sustentável e a preservação dos recursos naturais.<br />
+                    O nosso esforço é atender e superar as expectativas dos nossos clientes comercializando e produzindo móveis com qualidade, por meio de tecnologia, pelos nossos fornecedores, colaboradores e representantes, proporcionando o melhor atendimento.</p>
             </div>
             <div class="col-md-4 col-img-destaque">
                 <img src="img/img-destaque-home.png" class="img-max-size-150 img-size-150 pull-right margin-negativa-right" />
